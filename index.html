@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Success</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9edf0;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4b79a1, #283e51);
+            color: #fff;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 700;
+        }
+        .container {
+            padding: 3rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: -40px;
+            position: relative;
+            z-index: 1;
+        }
+        .container p {
+            font-size: 1.1rem;
+            margin: 1rem 0;
+        }
+        .aws-logo {
+            margin-top: 2rem;
+            width: 120px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .aws-logo:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #283e51;
+            color: #fff;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .glow {
+            color: #4b79a1;
+            text-shadow: 0 0 10px rgba(75, 121, 161, 0.5);
+        }
+        /* Add media query for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="glow">Web Application Successfully Deployed!</h1>
+    </header>
+    <div class="container">
+        <p><strong>Name:</strong> Khushi Rathi</p>
+        <p><strong>Class:</strong> BE 8</p>
+        <p><strong>Batch:</strong> P8</p>
+        <p><strong>Roll No:</strong> 42356</p>
+        <p>Hi, this webpage is successfully deployed in a PaaS environment using AWS!</p>
+        <img src="https://i.postimg.cc/FFMztMqZ/aws-amplify.png" alt="AWS Logo" class="aws-logo">
+    </div>
+    <footer>
+        <p>&copy; 2024 Khushi Rathi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
